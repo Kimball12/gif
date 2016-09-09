@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>&lt;COS&gt;
+    &lt;Name&gt;MarkerlessCOS21&lt;/Name&gt;
+    &lt;Fuser Type=&quot;BestQualityFuser&quot;&gt;
+        &lt;Parameters&gt;
+            &lt;KeepPoseForNumberOfFrames&gt;2&lt;/KeepPoseForNumberOfFrames&gt;
+            &lt;GravityAssistance&gt;&lt;/GravityAssistance&gt;
+            &lt;AlphaTranslation&gt;0.8&lt;/AlphaTranslation&gt;
+            &lt;GammaTranslation&gt;0.8&lt;/GammaTranslation&gt;
+            &lt;AlphaRotation&gt;0.5&lt;/AlphaRotation&gt;
+            &lt;GammaRotation&gt;0.5&lt;/GammaRotation&gt;
+            &lt;ContinueLostTrackingWithOrientationSensor&gt;false&lt;/ContinueLostTrackingWithOrientationSensor&gt;
+        &lt;/Parameters&gt;
+    &lt;/Fuser&gt;
+    
+    &lt;SensorSource&gt;
+        &lt;SensorID&gt;FeatureTracking1&lt;/SensorID&gt;
+        &lt;SensorCosID&gt;Patch21&lt;/SensorCosID&gt;
+        &lt;HandEyeCalibration&gt;
+            &lt;TranslationOffset&gt;
+                &lt;X&gt;0&lt;/X&gt;
+                &lt;Y&gt;0&lt;/Y&gt;
+                &lt;Z&gt;0&lt;/Z&gt;
+            &lt;/TranslationOffset&gt;
+            &lt;RotationOffset&gt;
+                &lt;X&gt;0&lt;/X&gt;
+                &lt;Y&gt;0&lt;/Y&gt;
+                &lt;Z&gt;0&lt;/Z&gt;
+                &lt;W&gt;1&lt;/W&gt;
+            &lt;/RotationOffset&gt;
+        &lt;/HandEyeCalibration&gt;
+        &lt;COSOffset&gt;
+            &lt;TranslationOffset&gt;
+                &lt;X&gt;0&lt;/X&gt;
+                &lt;Y&gt;0&lt;/Y&gt;
+                &lt;Z&gt;0&lt;/Z&gt;
+            &lt;/TranslationOffset&gt;
+            &lt;RotationOffset&gt;
+                &lt;X&gt;0&lt;/X&gt;
+                &lt;Y&gt;0&lt;/Y&gt;
+                &lt;Z&gt;0&lt;/Z&gt;
+                &lt;W&gt;1&lt;/W&gt;
+            &lt;/RotationOffset&gt;
+        &lt;/COSOffset&gt;
+    &lt;/SensorSource&gt;
+&lt;/COS&gt;</string>
+</array>
+</plist>
